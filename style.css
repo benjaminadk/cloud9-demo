@@ -1,9 +1,13 @@
-h1 {
-    font-family: Arial, Georgia, sans-serif;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+h1,button {
+    font: 1.5rem Arial;
 }
 
-.counter-wrapper {
-    border: 1px solid;
-    padding: 5px;
-    background: rgba(255,0,0,.5);
+button {
+    margin-top: 5px;
 }
